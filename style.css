@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.InstaMain{
+    width: 300px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+.InstaImg{
+    width: 50%;
+}
+.InstaImg img{
+    width: 100%;
+}
+.InstaLogo{
+    margin-top: 8%;
+    width: 20%;
+}
+.InstaLogo img{
+    width: 100%;
+    border-radius: 50%;
+}
+.InstaMain h2{
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-family: "Lexend";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.15px;
+    text-align: center;
+    color: #262626;
+}
+.InstaMain button{
+    width: 82%;
+    height: 40px;
+    text-align: center;
+    font-family: "Lexend";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.15px;
+    border-radius: 5px;
+    border-style: none;
+    color: #FFF;
+    background-color: #3797EF;
+}
+.InstaMain a{
+    width: 100%;
+    padding-top: 8%;
+    font-family: "Lexend";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    text-align: center;
+    text-decoration-line: none;
+    color: #3797EF;
+}
+.footer{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+    border-left: 1px solid rgba(0, 0, 0, 0.20);
+    border-right: 1px solid rgba(0, 0, 0, 0.20);
+}
+.footer p{
+    padding-top: 3%;
+    padding-bottom: 8%;
+    font-family: "Lexend";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.01px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.40);
+}
+.footer span{
+    font-family: "Lexend";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.005px;
+    text-align: center;
+    color: #262626;
+}
+.InstaLoginMain{
+    width: 300px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+.InstaLoginImg{
+    width: 55%;
+    margin-bottom: 10%;
+}
+.InstaLoginImg img{
+    width: 100%;
+}
+.InstaLoginMain form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.InstaLoginMain form input{
+    width: 100%;
+    height: 40px;
+    padding: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.InstaLoginMain form a{
+    width: 100%;
+    padding-bottom: 10%;
+    text-align: right;
+    text-decoration-line: none;
+    color: #3797EF;
+    text-align: right;
+    font-family: "Lexend";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.15px;
+}
+.InstaLoginMain form button{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    color: #FFF;
+    background-color: #3797EF;
+}
